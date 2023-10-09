@@ -1,0 +1,122 @@
+body
+ {
+    font-family: Arial, sans-serif;
+
+    /* DARK BACKGROUND COLOUR */
+    background-color: #000; 
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* TITLE  */
+.title 
+{
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.calculator 
+{
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 320px;
+}
+
+#display
+ {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff; 
+    outline: none;
+}
+
+/* ADJUSTING BUTTONS */
+.buttons
+ {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button 
+{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.operator
+ {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+.clear 
+{
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.equal
+ {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* HOVER BUTTONS */
+button:hover 
+{
+    background-color: #8f8b87; 
+}
+
+
+.operator:hover
+ {
+    background-color: #d4ac0d;
+}
+
+.clear:hover
+ {
+    background-color: #c5281e; 
+}
+
+.equal:hover 
+{
+    background-color: #1e994b; 
+}
+
+/* ADDING TRANSITIONS */
+@keyframes pulse
+ {
+    0% {
+        transform: scale(1);
+    }
+    50% 
+    {
+        transform: scale(1.05);
+    }
+    100%
+     {
+        transform: scale(1);
+    }
+}
+
+/* ADDING TRANSITIONS*/
+button:hover
+ {
+    animation: pulse 0.5s infinite;
+}
