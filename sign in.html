@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="header-top">
+        <div class="header-logo">
+            <img src="Amazon-Logo.webp" alt="Amazon Logo">
+        </div>
+        <div class="header-search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+</header>
+<body>
+    <div class="sign-in-container">
+        <h2>Sign In</h2>
+        <form action="your-signin-action-url" method="POST">
+            <label for="email">Enter Your Email </label>
+            <input type="text" id="email" name="email" required>
+            <br><br>
+            <label for="Mobile Number">Enter Mobile Number</label>
+            <input type="text" id="Mobile Number" name="Mobile Number" required>
+           
+<br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+        <p class="forgot-password"><a href="#">Forgot your password?</a></p>
+        <p class="create-account">New to Amazon? <a href="#">Create your Amazon account</a></p>
+    </div>
+</body>
+</html>

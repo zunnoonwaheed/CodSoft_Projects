@@ -1,0 +1,187 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Add your CSS styles here */
+header {
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-logo img {
+    background-color: transparent;
+height: 40px;
+}
+
+.header-search input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.header-search button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.header-account a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    right: 0;
+    text-decoration: rectangle;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-account:hover .header-dropdown {
+    display: block;
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    background-color: white; 
+}
+
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 10px; /* Adjust padding to make the rectangle smaller */
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.header-nav a:hover {
+    border-color: #ff9900;
+}
+
+
+
+.header-nav a:last-child {
+    margin-right: 0;
+}
+
+
+.logo img {
+    height: 40px;
+    background-color: transparent;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.search button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Add your CSS styles here */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    
+}
+
+.footer-container  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-decoration: none; /* Remove the default underline */
+    transition: text-decoration 0.2s ease; 
+   
+}
+
+
+
+
+.footer-container :hover {
+    text-decoration: underline; /* Apply underline on hover */
+}
+
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
